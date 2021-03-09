@@ -441,7 +441,6 @@ body {
     text-align: left;
     padding-top: 1rem;
     padding-left: 0rem;
-    font-family: Avenir Next LT Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -454,7 +453,6 @@ body {
     display: flex;    
     justify-content: space-between;
     flex-flow: row wrap;
-    /*top: 50.01%;*/
     bottom: 12.49%;
     padding-left: 7.77%;
     padding-right: 7.8%;
