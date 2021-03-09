@@ -468,8 +468,9 @@ body {
     opacity: 0.92;
     border-radius: 2px;
     float: left;
-    padding: 35px;
+    padding: 35px 5px 5px 35px;
     height: 253px;
+    overflow: auto;
 }
 
 .outdoor-more {
