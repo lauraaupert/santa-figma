@@ -347,7 +347,7 @@ body {
     position: absolute;
     height: 86.01px;
     left: 58.32%;
-    right: 7.79%;
+    /* right: 7.79%; */
     top: calc(50% - 86.01px/2 - 66.74px);
     font-weight: 900;
     font-size: 38px;
@@ -1145,6 +1145,20 @@ bottom: 30.77%;
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1100px) {
+    .philosophy {
+        display: flex;
+    }
+    .philosophy-title {
+    }
+    .philosophy-cards {
+        flex-direction: column;
+        width: 300px;
+    }
+    .philcard {
+        max-height: 270px;
+        margin-bottom: 5px;
+    }
+    
     .tour {
         height: 244px;
         /* justify-content: center; */
@@ -1158,12 +1172,9 @@ bottom: 30.77%;
     }
     .tour-form {
         width: 328px;
-        /* left: 0px; */
         left: calc(50% - 164px); 
-        /* left:20px; */
         top: 97px;
         display: flex;
-        /* justify-content: space-around; */
     }
     .inputicon {
         padding: 12px;
@@ -1210,10 +1221,6 @@ bottom: 30.77%;
         line-height: 22px;
         display: flex;
         align-items: center;
-    }
-
-    .card-body:hover {
-        animation: display 1s 0s ease forwards;
     }
     .card:hover {
         animation: cardtext 1s 0s ease forwards;        
