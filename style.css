@@ -1159,7 +1159,7 @@ bottom: 30.77%;
     .tour-form {
         width: 328px;
         /* left: 0px; */
-        /* left: calc(100%-328px);  */
+        left: calc(50% - 164px); 
         /* left:20px; */
         top: 97px;
         display: flex;
