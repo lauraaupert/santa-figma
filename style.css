@@ -1292,13 +1292,43 @@ bottom: 30.77%;
         height: 88.9px;
         top: 111.39px;
         left: 7.78%;
-
     }
     .activities-list {
         top: 230.39px;
-        
+        left: 7.79%;
+        width: 189px;
     }
+    .activities-image {
+        top: 519.91px;
+        width: 328.4px;
+    }
+    .activities-more {
+        top: 788.61px;
+    }
+    .philosophy-more {
+        left: 7.78%;
+    }
+    .childcare-body {
+        width: 327.9px;
+        height: 96.32px;
+        left: 7.79%;
+        top: 112.68px;
+        font-size: 14px;
+        line-height: 20px;
 
+    }
+    .childcare-cards {
+        top: 235px;
+        display: block;
+    }
+    .trees {
+        width: 308px;
+        height: 392px;
+    }
+    .tree-body {
+        font-size: 12px;
+        color: #91ABA0;
+    }
 }
 @media screen and (max-width: 800px) {
     .outdoor-rectangle {
@@ -1309,7 +1339,7 @@ bottom: 30.77%;
         position: absolute;
         width: 88.5%;
         height: 13.1%;
-        top: 10%;
+        top: 67.68px;
         font-size: 28px;
         font-weight: 600;
         line-height: 33px;
@@ -1339,7 +1369,7 @@ bottom: 30.77%;
         display: none;
     }     */
     .left-pretitle {
-        top: 6%
+        top: 43.88px;
     }
   }
 
