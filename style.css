@@ -965,7 +965,7 @@ line-height: 1;
 .contact-button {
     width: 100%;
     border: 1px solid #CBCAC7;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .last-button {
 top: 2px;
@@ -1150,24 +1150,98 @@ bottom: 30.77%;
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1100px) {
+    .santa {
+        width: 221.82px;
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: 700px;
+    }
+    .email {
+        display: none;
+    }
+    .top-phone {
+        display: none;
+    }
+    .bar {
+        display: none;
+    }
+    .fostering {
+        min-height: 544px;
+        max-height: 544px;
+    }
+    .fostering-pretitle {
+        position: absolute;
+        height: 16px;
+        top: 6.75%;
+        width: 326px;
+    }
+    .fostering-title {
+        top: 11.23%;
+        font-size: 28px;
+        line-height: 33px;
+        width: 328.17px;
+        height: 64px;
+    }
+    .fostering-body {
+        top: 26.84%;
+        font-size: 16px;
+        line-height: 24px;
+        width: 328.17px;
+    }
+    .fostering-button {
+        top: 53.86%;
+    }
+    .fostering-photo {
+        top: 256px;
+        left: 0px;
+        width: 100%;
+        height: 293.29px;
+        background-image: linear-gradient(175.7deg, #22211F 11.2%, rgba(34, 33, 31, 0) 18.55%), url(Assets/Fostering.jpg);
+        background-size: 160%;
+        background-position: 30% 30%;
+    }
     .right-pretitle {
         position: absolute;
-        width: 488.21px;
+        width: 326.17px;
         height: 11.96px;
         left: 7.78%;
         /* top: 76.02px; */
         top: 40px;
     }
+    .left-pretitle {
+        width: 326px;
+    }
     .philosophy {
         display: flex;
+        min-height: 925.46px
     }
     .philosophy-cards {
         flex-direction: column;
-        width: 300px;
+        top: 272px;
+        height: 568px;
+        width: 328px;
+    }
+    .philosophy-body {
+        top: 154.22px;
+        left: 7.79%;
+        width: 327.89px;
+        height: 91.42;
+        color: #22211F;
+    }
+    .philosophy-more {
+        top: 873.46px;
+text-align: center;    
+    width: 100px;
+    left: calc((100% - 100px)/2)
     }
     .philcard {
-        max-height: 270px;
+        min-height: 280px;
         margin-bottom: 5px;
+        width: 328px;
+
+    }
+    .overlay {
+        font-size: 16px;
     }
     
     .tour {
@@ -1286,7 +1360,7 @@ bottom: 30.77%;
         font-weight: 600;
         line-height: 33px;
         left: 7.78%;
-        top: calc(50% - 34.63px/2 - 348.32px);
+        top: 67.81px;
     }
     .activities-body {
         height: 88.9px;
@@ -1305,8 +1379,12 @@ bottom: 30.77%;
     .activities-more {
         top: 788.61px;
     }
-    .philosophy-more {
+    /* .philosophy-more {
         left: 7.78%;
+    } */
+    .childcare {
+        min-height: 688px;
+        max-height: 688px;;
     }
     .childcare-body {
         width: 327.9px;
@@ -1328,6 +1406,102 @@ bottom: 30.77%;
     .tree-body {
         font-size: 12px;
         color: #91ABA0;
+    }
+    .end-contact {
+        height: 624px;
+    }
+    .contact-us {
+        font-size: 24px;
+        width: 327.28px;
+        line-height: 32px;
+        top: 38.38px;
+        left: 7.79%;
+    }
+    .love {
+        font-size: 16px;
+        width: 327px;
+        left: 7.79%;
+        top: 85.63px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: none;
+    }
+    .contact-form {
+        left: 7.79%;
+    }
+    .location {
+        top: 462px;
+        font-size: 12px;
+        left: 17%;
+    }
+    .location-icon {
+        top: 462px;
+        left: 7.79%;
+    }
+    .phone {
+        top: 506px;
+        font-size: 12px;
+        left: 17%;
+        width: 328px;
+    }
+    .phone-icon {
+        top: 507.28px;
+        left: 7.79%;
+
+    }
+    .emailaddress {
+        top: 550px;
+        font-size: 12px;
+        left: 17%;
+        width: 328px;
+    }
+    .envelope {
+        top: 551.7px;
+        left: 7.79%;
+
+    }
+    .contact-button {
+        background-color: #3A6659;
+    }
+    .button-font {
+        color: white;
+    }
+    .footer {
+        height: 144px;
+    }
+    .center {
+        color: #91ABA0;
+        font-weight: 700;
+        font-size: 16px;
+        width: 326.95px;
+        line-height: 19px;
+        top: 24px;
+        left: calc((100% - 326.95px)/2);
+        justify-content: center; 
+    }
+    .bottom-bar {
+        display: none;
+    }
+    #line {
+        top: 77.08%;
+        left: 7.79%;
+        right: 7.79%;
+        background: #91ABA0;
+        margin: 0px;
+    }
+    .social-links {
+        top: 63px;
+        width: 192px;
+        height: 24px;
+        left: calc((100% - 192px)/2);    
+    }
+    .rights {
+        top: 119px;
+        width: 340px;
+        left: calc((100% - 340px)/2);    
+        align-items: center;
+
+        /* left: 0%; */
     }
 }
 @media screen and (max-width: 800px) {
