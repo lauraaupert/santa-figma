@@ -493,6 +493,9 @@ body {
     width: auto;
     z-index: 0;
 }
+.outdoor-narrow {
+    display: none;
+}
 
 .tour {
     position: relative;
@@ -591,6 +594,9 @@ height: 42px;
     top: 27.73%;
     bottom: 56.67%;
     color: #22211F;
+}
+.activities-narrow {
+    display: none;
 }
 .activities-list {
     position: absolute;
@@ -1191,6 +1197,7 @@ bottom: 30.77%;
     .fostering-button {
         top: 53.86%;
     }
+
     .fostering-photo {
         top: 256px;
         left: 0px;
@@ -1338,6 +1345,14 @@ text-align: center;
         background-position-x: 0%;
         /* background-position: top left; */
     }
+    .outdoor-wide {
+        display: none;
+    }
+    .outdoor-narrow {
+        display: block;
+        width: 238px;
+        left: calc((100% - 238px)/2)
+    }
     .activities {
         min-height: 853px;
     }
@@ -1362,6 +1377,13 @@ text-align: center;
         left: 7.78%;
         top: 67.81px;
     }
+    .activities-title {
+        font-size: 38px;
+        line-height: 46px;
+        font-weight: 900;
+        height: 34.63px;
+        top: 60.89px;
+    }
     .activities-body {
         height: 88.9px;
         top: 111.39px;
@@ -1378,6 +1400,11 @@ text-align: center;
     }
     .activities-more {
         top: 788.61px;
+        width: 287.33px;
+        left: calc((100% - 287.33px)/2)
+    }
+    .activities-pretitle {
+        top: 44px;
     }
     /* .philosophy-more {
         left: 7.78%;
@@ -1466,8 +1493,17 @@ text-align: center;
     .button-font {
         color: white;
     }
+    .learn-button {
+        color: #22211F;
+    }
     .footer {
         height: 144px;
+    }
+    .activities-wide {
+        display: none;
+    }
+    .activities-narrow {
+        display: block;
     }
     .center {
         color: #91ABA0;
