@@ -201,17 +201,19 @@ body {
     bottom: 12.99%;
     background-color:#EFD28C;
     /*background: #D8D8D8;*/
+    border-width: 1px;
+    border-color: #DBC07E;
     border-radius: 4px;
     width: 165px;
     height: 40px;
-    border-style: none;
+    border-style: solid;
 }
 
 .button-text {
     position: absolute;
     height: 13px;
-    left: 16px;
-    right: 16px;
+    left: 15px;
+    right: 15px;
     top: calc(50% - 13px/2);
 }
 
@@ -478,7 +480,8 @@ body {
     padding-right: 7.8%;
     margin-right: 0px;
     margin-left: 0px;
-    margin-top: 320.07px;
+    top: 244.22px;
+    /* margin-top: 320.07px; */
 }
 
 .card {
@@ -1194,6 +1197,7 @@ bottom: 30.77%;
         line-height: 33px;
         width: 328.17px;
         height: 64px;
+        font-weight: 900;
     }
     .fostering-body {
         top: 26.84%;
@@ -1212,7 +1216,7 @@ bottom: 30.77%;
         height: 293.29px;
         background-image: linear-gradient(175.7deg, #22211F 11.2%, rgba(34, 33, 31, 0) 18.55%), url(Assets/Fostering.jpg);
         background-size: 160%;
-        background-position: 30% 30%;
+        background-position: 30% 0%;
     }
     .right-pretitle {
         position: absolute;
@@ -1475,6 +1479,10 @@ bottom: 30.77%;
     }
     .contact-form {
         left: 7.79%;
+        top: 152px;
+    }
+    .form-button {
+        margin-top: 10px;
     }
     .location {
         top: 462px;
@@ -1489,7 +1497,7 @@ bottom: 30.77%;
         top: 506px;
         font-size: 12px;
         left: 17%;
-        width: 328px;
+        width: 125px;
     }
     .phone-icon {
         top: 507.28px;
@@ -1500,7 +1508,7 @@ bottom: 30.77%;
         top: 550px;
         font-size: 12px;
         left: 17%;
-        width: 328px;
+        width: 125px;
     }
     .envelope {
         top: 551.7px;
@@ -1571,7 +1579,7 @@ bottom: 30.77%;
         height: 13.1%;
         top: 67.68px;
         font-size: 28px;
-        font-weight: 600;
+        font-weight: 900;
         line-height: 33px;
         left: 7.78%;
         color: #FFFFFF;
