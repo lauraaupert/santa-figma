@@ -317,14 +317,14 @@ body {
 }
 
 .nature-body {
-    background-image: url(./Assets/Nature.png);
+    background-image: url(./Assets/Nature.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
 }
 
 .play-body {
-    background-image: url(./Assets/Play.png);
+    background-image: url(./Assets/Play.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
@@ -644,7 +644,7 @@ top: 13.33%;
 bottom: 13.29%;
 width: 40.5%;
 height: auto;
-background-image: url("./Assets/Activities.png");
+background-image: url("./Assets/Activities.jpg");
 background-size: cover;
 background-position-x: right;
 background-position-y: top;
