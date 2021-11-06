@@ -4,6 +4,7 @@ body {
     /*height: 4216px;*/
     overflow-y: scroll;
     font-family: Avenir;
+    min-width: 360px;
 }
 
 .fullmain {
@@ -17,6 +18,7 @@ body {
 }
 
 .more {
+    /* display: none; */
     position: absolute;
     width: 100px;
     height: 17px;
@@ -35,6 +37,32 @@ body {
     top: -0.5px;
     background: #3A6659;
     display: flex;
+}
+
+.hamburger {
+    display: none;
+}
+.hamburger-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 2vw;
+}
+.hamburger-button:hover {
+    background-color: rgba(145, 171, 160, 1);
+}
+.btn-primary:focus {
+    background-color: rgba(145, 171, 160, 1);
+    border: none;
+    box-shadow: 0 0 0 0.25rem rgb(145 171 160 / 50%);
+}
+.offcanvas {
+    top: 64.5px;
+    min-width: 150px;
+    width: 35vw;
+}
+.offcanvas-body {
+    padding-right: 0;
 }
 
 .santa {
@@ -63,7 +91,7 @@ body {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    left: 73.68%;
+    /* left: 73.68%; */
     right: 15.97%;
     color: #FFFFFF;
 }
@@ -194,6 +222,7 @@ body {
 }
 
 .fostering-button {
+    display: none;
     position: absolute;
     left: 7.78%;
     right: 80.76%;
@@ -516,6 +545,8 @@ body {
     background: #3A6659;
     display: flex;
     align-items: center;
+    display: none;
+
 }
 
 .schedule {
@@ -1055,7 +1086,7 @@ opacity: 1;
 .center {
     position: absolute;
 left: 7.78%;
-right: 62.71%;
+/* right: 62.71%; */
 top: 18.38%;
 bottom: 66.25%;
 
@@ -1063,12 +1094,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 21px;
 line-height: 28px;
-/* or 133% */
-
 letter-spacing: -0.01em;
-
-/* White */
-
 color: #FFFFFF;
 }
 .bottom-bar {
@@ -1170,6 +1196,10 @@ bottom: 30.77%;
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1100px) {
+    .header {
+        position: sticky;
+        z-index: 1;
+    }
     .santa {
         width: 221.82px;
         font-size: 15px;
@@ -1185,6 +1215,10 @@ bottom: 30.77%;
     .bar {
         display: none;
     }
+    .hamburger {
+        display: block;
+    }
+
     .fostering {
         min-height: 544px;
         max-height: 544px;
@@ -1326,7 +1360,7 @@ bottom: 30.77%;
         width: 100%;
         height: 72px;
         padding-top: 25px;
-        z-index: 1;
+        /* z-index: 1; */
         cursor: pointer;
     }
     .card-body {
@@ -1364,7 +1398,7 @@ bottom: 30.77%;
          background-color:#91ABA0;
        } 
        100% {
-         height: 142px;
+         height: 148px;
          padding-bottom: 0px;
          background-color:#3A6659;
        }
@@ -1440,7 +1474,7 @@ bottom: 30.77%;
     .childcare {
         min-height: 688px;
         /* max-height: 688px; */
-        height: 100vh;
+        height: 85vh;
     }
     .childcare-pretitle {
         top: 4.5vh;
@@ -1469,8 +1503,8 @@ bottom: 30.77%;
         display: flex;
     }
     .trees {
-        /* width: 308px;
-        height: 392px; */
+        /* /* width: 308px; */
+        height: 392px; 
         min-width: 308px;
     min-height: 350px;
     width: 90vw;
@@ -1483,6 +1517,8 @@ bottom: 30.77%;
     }
     .end-contact {
         /* height: 624px; */
+        min-height: 0px;
+        height: 35vh;
     }
     .contact-us {
         font-size: 24px;
@@ -1633,7 +1669,9 @@ bottom: 30.77%;
     }     */
 
     .childcare-title {
-        width: 100%;
+        /* width: 100%; */
+        min-width: 316px;
+         white-space: nowrap;
     }
     .childcare-body {
         margin-top: 1vh;
@@ -1648,11 +1686,13 @@ bottom: 30.77%;
 
   .acc-text {
     padding-top: 0px;
-    margin-top: 30vh;
+    margin-top: 255px;
     /*width: 550px;*/
     /* width: 80%; */
     overflow: hidden;
-    height: 62vh;
+    height: 50vh;
+    min-height: 410px;
+    z-index: 0;
   }
   .bottom {
     width: 100%;
@@ -1683,8 +1723,12 @@ bottom: 30.77%;
 .summer-block {
     display:flex;
     justify-content: center;
-    margin-top: 8.33%;
-    margin-bottom: 8.33%;
+    margin: 8.33%;
+    width: 83.33%;
     overflow: hidden;
 }
 
+
+.more {
+    display: none;
+}
