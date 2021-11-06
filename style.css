@@ -52,14 +52,15 @@ body {
     background-color: rgba(145, 171, 160, 1);
 }
 .btn-primary:focus {
-    background-color: rgba(145, 171, 160, 1);
+    background-color: transparent;;
     border: none;
-    box-shadow: 0 0 0 0.25rem rgb(145 171 160 / 50%);
+    box-shadow: transparent;
 }
 .offcanvas {
     top: 64.5px;
-    min-width: 150px;
-    width: 35vw;
+    /* min-width: 150px; */
+    width: 200px;
+    /* max-width: 680px; */
 }
 .offcanvas-body {
     padding-right: 0;
@@ -697,6 +698,7 @@ background: #91ABA0;
 }
 .childcare-title {
     top: calc(50% - 34px/2 - 438.44px);
+    width: 35vw;
 }
 .childcare-body {
     position: absolute;
@@ -1481,6 +1483,7 @@ bottom: 30.77%;
     }
     .childcare-title {
         top: 7vh;
+        width: 100%;
     }
     .childcare-body {
         width: 327.9px;
