@@ -696,6 +696,9 @@ display: flex;
     width: 100%;
     /* max-height: 405px; */
 }
+.swiper {
+    display: none;
+}
 .trees {
     
     background: #3A6659;
@@ -772,7 +775,7 @@ overflow: hidden;
 .summer1 {
     width: 20.40%;
     height: 100%;
-    background-image: url(./Assets/summer1.jpg);
+    background-image: url(./Assets/summer1.webp);
     background-size: 102%;
     background-position-y: 80%;
     right: 0;
@@ -781,7 +784,7 @@ overflow: hidden;
     width: 23.68%;
     height: 100%;
 
-    background-image: url(./Assets/summer2.jpg);
+    background-image: url(./Assets/summer2.webp);
  
     background-size: 150%;
     background-position-y: 50%;
@@ -791,7 +794,7 @@ overflow: hidden;
     width: 21.71%;
     height: 100%;
 
-    background-image: url(./Assets/summer3.jpg);
+    background-image: url(./Assets/summer3.webp);
     background-size: 115%;
     background-position-y: 70%;
     background-position-x: 5%;
@@ -874,7 +877,7 @@ color: #3A6659;
 
 position: absolute;
 left: 15%;
-right: 60%;
+/* right: 60%; */
 top: 38%;
 bottom: 55.1%;
 
@@ -971,6 +974,7 @@ line-height: 24px;
 color: #6B6A67;
 }
 .contact-form {
+    display: none;
     position: absolute;
 left: 58.33%;
 right: 15%;
@@ -1435,7 +1439,14 @@ bottom: 30.77%;
     } */
     .childcare {
         min-height: 688px;
-        max-height: 688px;;
+        /* max-height: 688px; */
+        height: 100vh;
+    }
+    .childcare-pretitle {
+        top: 4.5vh;
+    }
+    .childcare-title {
+        top: 7vh;
     }
     .childcare-body {
         width: 327.9px;
@@ -1448,18 +1459,30 @@ bottom: 30.77%;
     }
     .childcare-cards {
         top: 235px;
-        display: block;
+        display: none;
+
+    }
+    .summer {
+        display:none;
+    }
+    .swiper {
+        display: flex;
     }
     .trees {
-        width: 308px;
-        height: 392px;
+        /* width: 308px;
+        height: 392px; */
+        min-width: 308px;
+    min-height: 350px;
+    width: 90vw;
+    max-width: 420px;
+    max-height: 58vh;
     }
     .tree-body {
         font-size: 12px;
         color: #91ABA0;
     }
     .end-contact {
-        height: 624px;
+        /* height: 624px; */
     }
     .contact-us {
         font-size: 24px;
@@ -1472,7 +1495,7 @@ bottom: 30.77%;
         font-size: 16px;
         width: 327px;
         left: 7.79%;
-        top: 85.63px;
+        /* top: 85.63px; */
         font-weight: 400;
         line-height: 24px;
         text-transform: none;
@@ -1485,33 +1508,33 @@ bottom: 30.77%;
         margin-top: 10px;
     }
     .location {
-        top: 462px;
+        /* top: 462px; */
         font-size: 12px;
         left: 17%;
     }
     .location-icon {
-        top: 462px;
+        /* top: 462px; */
         left: 7.79%;
     }
     .phone {
-        top: 506px;
+        /* top: 506px; */
         font-size: 12px;
         left: 17%;
         width: 125px;
     }
     .phone-icon {
-        top: 507.28px;
+        /* top: 507.28px; */
         left: 7.79%;
 
     }
     .emailaddress {
-        top: 550px;
+        /* top: 550px; */
         font-size: 12px;
         left: 17%;
         width: 125px;
     }
     .envelope {
-        top: 551.7px;
+        /* top: 551.7px; */
         left: 7.79%;
 
     }
@@ -1584,6 +1607,8 @@ bottom: 30.77%;
         left: 7.78%;
         color: #FFFFFF;
     }
+
+    
     .outdoor-body {
         position: absolute;
         left: 7.78%;
@@ -1606,8 +1631,60 @@ bottom: 30.77%;
     /* .card-body {
         display: none;
     }     */
+
+    .childcare-title {
+        width: 100%;
+    }
+    .childcare-body {
+        margin-top: 1vh;
+    }
     .left-pretitle {
         top: 43.88px;
     }
   }
+
+
+
+
+  .acc-text {
+    padding-top: 0px;
+    margin-top: 30vh;
+    /*width: 550px;*/
+    /* width: 80%; */
+    overflow: hidden;
+    height: 62vh;
+  }
+  .bottom {
+    width: 100%;
+    margin-left: 7.78%;
+
+    border-radius: 4px;
+    height: auto;
+    display: flex;
+  }
+  .swiper-pagination {
+    --swiper-theme-color: lightgrey;
+    /* z-index: 1;
+    width: 300px; */
+    height: 20px;
+    bottom: -3px !important;
+  }
+  .swiper-slide {
+      margin-left: 11vw;
+  }
+  .summer-image {
+    /* width: 83.33%;
+    height: 49.15%; */
+    max-height: 244px;
+    /* margin: 8.33%; */
+    object-fit: contain;
+    
+}
+.summer-block {
+    display:flex;
+    justify-content: center;
+    margin-top: 8.33%;
+    margin-bottom: 8.33%;
+    overflow: hidden;
+}
 
