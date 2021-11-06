@@ -54,7 +54,7 @@ body {
 .btn-primary:focus {
     background-color: transparent;;
     border: none;
-    box-shadow: transparent;
+    box-shadow: none;
 }
 .offcanvas {
     top: 64.5px;
