@@ -43,10 +43,16 @@ body {
     display: none;
 }
 .hamburger-button {
+    background-image: url('./Assets/icons/icon_menu_hamburger.svg');
     background-color: transparent;
     border: none;
     position: absolute;
     right: 2vw;
+    top: 15px;
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-position: center
 }
 .hamburger-button:hover {
     background-color: rgba(145, 171, 160, 1);
