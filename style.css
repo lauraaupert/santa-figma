@@ -3,7 +3,7 @@ body {
   width: 100%;
   /*height: 4216px;*/
   overflow-y: scroll;
-  font-family: Avenir !important;
+  /* font-family: Avenir !important; */
   text-rendering: optimizeLegibility;
   min-width: 360px;
 }
