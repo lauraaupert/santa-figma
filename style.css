@@ -224,7 +224,7 @@ body {
   position: absolute;
   left: 7.78%;
   right: 51.25%;
-  top: 46.75%;
+  /* top: 46.75%; */
   bottom: 29.28%;
   flex-wrap: wrap;
   font-style: normal;
@@ -533,7 +533,7 @@ body {
   float: left;
   padding: 35px 5px 5px 35px;
   height: 253px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .outdoor-more {
@@ -629,6 +629,7 @@ body {
   /*height: 14.23%;*/
   min-height: 600px;
   left: 0px;
+
   /*top: 1904px;*/
   background: #f8f6f4;
 }
@@ -639,6 +640,7 @@ body {
   top: 27.73%;
   bottom: 56.67%;
   color: #22211f;
+  max-width: 510px;
 }
 .activities-narrow {
   display: none;
@@ -652,6 +654,8 @@ body {
   top: 302px;
   display: flex;
   flex-wrap: wrap;
+  max-width: 510px;
+
   /* justify-content: space-between; */
 }
 
@@ -1466,7 +1470,7 @@ bottom: 30.77%;
     min-height: 350px;
     width: 90vw;
     max-width: 420px;
-    max-height: 58vh;
+    /* max-height: 58vh; */
   }
   .tree-body {
     font-size: 12px;
@@ -1474,7 +1478,7 @@ bottom: 30.77%;
   }
   .end-contact {
     /* height: 624px; */
-    min-height: 0px;
+    min-height: 290px;
     height: 35vh;
   }
   .contact-us {
@@ -1692,7 +1696,7 @@ bottom: 30.77%;
   --swiper-theme-color: lightgrey;
   /* z-index: 1;
     width: 300px; */
-  height: 20px;
+  height: 23px;
   bottom: -3px !important;
 }
 .swiper-slide {
