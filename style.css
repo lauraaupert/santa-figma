@@ -1436,6 +1436,7 @@ bottom: 30.77%;
     min-height: 688px;
     /* max-height: 688px; */
     height: 85vh;
+    max-height: 740px;
   }
   .childcare-pretitle {
     top: 4.5vh;
